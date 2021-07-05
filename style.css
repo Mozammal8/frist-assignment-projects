@@ -1,3 +1,189 @@
-p{
-    color:red;
+body{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
 }
+
+/*------ frist section start css ------*/
+
+
+#frist-section{
+    margin-bottom: 80px;
+}
+.frist-part{
+    display: flex;
+}
+.frist-sec-left-part{
+    width: 50%;
+    padding-left: 60px;
+   margin-top: 40px;
+}
+.frist-sec-left-part span{
+    color:orange;
+}
+.frist-sec-left-part h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.frist-sec-left-part h4{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    width: 400px;
+    margin-bottom: 40px;
+}
+.frist-btn{
+    text-decoration: none;
+    padding:10px 40px;
+    border-radius: 18px;
+    background-image: linear-gradient(to right,orange,green);
+    color:aliceblue;
+    font-weight: 500;
+
+}
+
+.frist-sec-right-part{
+    width: 50%;
+    display: block;
+    margin-left: 100px;
+}
+.frist-sec-right-part img{
+    width: 80%;
+    display: block;
+    
+}
+
+/* ----frist section css end-----*/
+
+/*-----second section css start---*/
+
+#second-section{
+    background-image: url(images/pic2.png);
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+}
+.second-part{
+    display: flex;
+}
+.second-sec-part-left{
+    width: 50%;
+    margin-top: 30px;
+}
+.second-sec-part-left img{
+    height: 400px;
+    width: auto;
+    margin-left: 230px;
+}
+.second-sec-part-right{
+    width: 50%;
+    margin-top: 60px;
+
+}
+.second-sec-part-right h1{
+    font-size: 30px;
+    font-weight: 700;
+    color:black;
+}
+.second-sec-part-right p{
+    width: 500px;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 32px;
+    margin-bottom: 70px;
+}
+
+.second-btn{
+    text-decoration: none;
+    padding:10px 40px;
+    background-image: linear-gradient(red,green);
+    border-radius: 14px;
+    color:blanchedalmond;
+    font-size: 18px;
+}
+
+/*--------therd part start-----*/
+#therd-section{}
+.therd-heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.therd-heading h1{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.therd-heading h4{
+    font-size: 18px;
+    font-weight: 300;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+   
+}
+.therd-part{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+
+.therd-part-one{
+    width: 31%;
+    margin:2%;
+    background-color: white;
+    box-shadow: 3px 3px 10px black;
+    padding:20px;
+    border-radius: 15px;
+}
+.therd-part-one img{
+    width: 100%;
+    border-radius: 18px;
+}
+.therd-part-one h2{
+    font-size: 25px;
+    font-weight: 900;
+    margin:20px 0px;
+}
+.therd-part-one p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+/*------- four section start -------*/
+
+#four-section{
+    margin-bottom: 70px;
+}
+.four-part{
+    display: flex;
+}
+.four-part-one{
+    width: 33%;
+    text-align: center;
+}
+.four-part-one h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.four-part-one p{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+/*---fotter part start------*/
+#fotter-part{
+    background-color: black;
+    height: 100px;
+    color:blanchedalmond;
+    text-align: center;
+}
+#fotter-part h3{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#fotter-part span{
+    color:orange;
+}
+#fotter-part p{}
