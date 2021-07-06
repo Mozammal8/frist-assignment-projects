@@ -4,6 +4,40 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+
+/* -----navbar part start-------*/
+#navbar-part{
+    background-color: powderblue;
+}
+.navbar{
+    text-align: center;
+}
+.navbar ul{}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    border-right: 1px solid #fff;
+    transition: .4s;
+ 
+}
+.navbar ul li:last-child{
+    border:none;
+}
+.navbar ul li a{
+    display: block;
+    text-decoration: none;
+    padding:15px 45px;
+    font-size: 22px;
+    font-weight: 500;
+    color:black;
+   
+}
+.navbar ul li:hover a{
+    color:red;
+    
+    
+}
+
 /*------ frist section start css ------*/
 
 
@@ -170,6 +204,78 @@ body{
     font-size: 22px;
     font-weight: 300;
 }
+
+
+/* -------five section part start-----*/
+
+#five-section{
+    margin:100px 0px;
+}
+.contact-part{
+    display: flex;
+}
+.contact-left-part{
+    width: 50%;
+   margin-left: 70px;
+}
+.contact-left-part h1{
+    font-size: 35px;
+    font-weight: 500;
+    color:orange;
+}
+.contact-left-part .input-1{
+    width: 70%;
+    padding: 12px 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border:2px solid;
+    border-image: linear-gradient(red,green);
+    border-image-slice: 1;
+}
+.contact-left-part .input-2{
+    width: 70%;
+    padding: 12px 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border:2px solid;
+    border-image: linear-gradient(black,green);
+    border-image-slice: 1;
+}
+.contact-left-part .input-3{
+    width: 70%;
+    padding: 12px 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border:2px solid;
+    border-image: linear-gradient(tomato,green);
+    border-image-slice: 1;
+}
+.contact-btn{
+    background-color: orangered;
+    display: block;
+    width: 64%;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+    padding:10px 30px;
+    font-size: 26px;
+    font-weight: 700;
+    color:pink;
+    margin-top: 30px;
+}
+.contact-right-part{
+    width: 50%;
+    margin-top: 60px;
+}
+.contact-right-part img{
+    width: 80%;
+
+}
+
+
+
+
 
 /*---fotter part start------*/
 #fotter-part{
